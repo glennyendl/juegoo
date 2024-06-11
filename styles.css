@@ -1,0 +1,64 @@
+body{
+    background-color: #bababa; 
+    display: flex;
+    padding: 20px 50px;
+    gap: 30px;
+    overflow: hidden;
+}
+.render{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+canvas{
+    background-color: rgb(255, 255, 255);
+    border: 30px solid #737373;
+    border-radius: 15px;
+}
+.content{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.triangulo{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #484848;
+}
+.triangulo2{
+    display: flex;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 50px solid #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: none;
+    border-radius: 10%;
+    margin-top: 40px;
+}
+.counters{
+    display: flex;
+    gap: 20px;
+    padding-top: 100px;
+}
+.counter{
+    min-width: 150px;
+    height: 70px;
+    background: #fff;
+    border-radius: 15px;
+    border: 15px solid #737373;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: monospace;
+}
